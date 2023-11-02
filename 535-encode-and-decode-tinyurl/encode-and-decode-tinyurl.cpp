@@ -22,3 +22,7 @@ public:
 // Your Solution object will be instantiated and called as such:
 // Solution solution;
 // solution.decode(solution.encode(url));
+
+
+// T.C. = O(1)
+// S.C. = O(1)
