@@ -10,8 +10,10 @@ public:
 
         vector<vector<int>> ans(maxRow);
         for (auto i: mp) {
-            for (int j = 0; j < i.second; j++) {
-                ans[j].push_back(i.first);
+            int num = i.first;
+            int freq = i.second;
+            for (int j = 0; j < freq; j++) {
+                ans[j].push_back(num);
             }
         }
         return ans;
