@@ -7,7 +7,7 @@ public:
         if (sum > target) return;
         if (idx == n) {
             if (sum == target) {
-                cout << "ja rha" << endl;
+             //   cout << "ja rha" << endl;
                 s.insert(temp);
                 return;
             }
@@ -23,7 +23,6 @@ public:
     }
 
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-       // sort(candidates.begin(), candidates.end());
         vector<vector<int>> ans;
         vector<int> temp;
         int sum = 0;
