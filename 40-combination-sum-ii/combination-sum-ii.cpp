@@ -9,7 +9,6 @@ public:
         if (idx == n) {
              if (target == 0) {
                 s.insert(temp);
-                return;
             }
             return;
         }
