@@ -7,9 +7,6 @@ public:
         int left = 0, right;
         map<char, int> freq;
         for (right = 0; right < n; right++) {
-            // if (s[right] == ' ') {
-            //     break;
-            // }
             freq[s[right] - 'a']++;
 
             while (freq[s[right] - 'a'] > 1) {
