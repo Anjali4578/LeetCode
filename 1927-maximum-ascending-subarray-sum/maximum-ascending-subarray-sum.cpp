@@ -12,6 +12,6 @@ public:
             }
             ans = max(ans, sum);
         }
-        return max(ans, sum);
+        return ans;
     }
 };
