@@ -7,7 +7,7 @@ public:
                 mp[k]++;
             }
         }
-        int a , b;
+        int a = -1, b = -1;
         int n = grid.size();
         for (int i = 1; i <= n * n; i++) {
             if (mp[i] == 2) a = i;
