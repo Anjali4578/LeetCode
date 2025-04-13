@@ -11,5 +11,7 @@ public:
             ans =  (ans + cnt) % mod;
         }
         return ans;
+
+        // T.C. = O(N)   S.C. = O(1)
     }
 };
