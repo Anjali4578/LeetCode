@@ -11,7 +11,7 @@ public:
             ans = min(ans, avg);
         }
 
-        return *min_element(averages.begin(), averages.end());
+        return ans;
 
         // T.C. = O(n log n)
         // S.C. = O(m) -> for averages array
