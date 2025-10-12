@@ -13,5 +13,6 @@ public:
             }
         }
         return sum;
+        // T.C. = O(N log n)  S.C. = O(N)
     }
 };
